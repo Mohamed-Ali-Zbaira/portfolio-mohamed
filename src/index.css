@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling for in-page anchor navigation */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes float {
+	0%, 100% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-20px);
+	}
+}
+
+.animate-float {
+	animation: float 6s ease-in-out infinite;
+}
+
+.delay-1000 {
+	animation-delay: 1s;
+}
+
+/* RTL Support for Arabic */
+[dir="rtl"] {
+	direction: rtl;
+}
+
+[dir="rtl"] .mr-3 {
+	margin-right: 0;
+	margin-left: 0.75rem;
+}
+
+[dir="rtl"] .ml-1 {
+	margin-left: 0;
+	margin-right: 0.25rem;
+}
+
+[dir="rtl"] .text-left {
+	text-align: right;
+}
+
+[dir="rtl"] .text-right {
+	text-align: left;
+}
+
+[dir="rtl"] .justify-start {
+	justify-content: flex-end;
+}
+
+[dir="rtl"] .justify-end {
+	justify-content: flex-start;
+}
+
+[dir="rtl"] .items-start {
+	align-items: flex-end;
+}
+
+[dir="rtl"] .items-end {
+	align-items: flex-start;
+}

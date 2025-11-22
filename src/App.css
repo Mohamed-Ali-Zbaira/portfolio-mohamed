@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Règle pour le défilement fluide */
+html {
+  scroll-behavior: smooth;
+}
