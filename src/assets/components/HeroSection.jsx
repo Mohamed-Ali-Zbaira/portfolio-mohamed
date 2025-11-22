@@ -6,6 +6,7 @@ import { Bio } from '../../data/portfolioData';
 import { useTranslation } from '../../hooks/useTranslation';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { languages } from '../../translations';
+import DownloadResumeModal from './DownloadResumeModal';
 
 
 export const HeroSection = () => {
@@ -18,6 +19,7 @@ export const HeroSection = () => {
     const { language, changeLanguage } = useLanguage();
     const { t } = useTranslation();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
 
     useEffect(() => {
         setIsVisible(true);
@@ -239,20 +241,19 @@ export const HeroSection = () => {
 
                             {/* CTA Buttons */}
                             <div className="flex flex-wrap gap-3 justify-center lg:justify-start pt-2">
-                                <a
-                                    href={Bio.resume}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="group relative px-6 py-3 bg-gradient-to-r from-blue-400 to-blue-500 text-gray-900 font-bold rounded-lg overflow-hidden transition-all duration-300 shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105 text-sm sm:text-base"
-                                >
-                                    <span className="relative z-10 flex items-center gap-2">
-                                        {t.hero.downloadResume}
-                                        <svg className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                                        </svg>
-                                    </span>
-                                    <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                                </a>
+                                    <button
+                                        onClick={() => setIsResumeModalOpen(true)}
+                                        type="button"
+                                        className="group relative px-6 py-3 bg-gradient-to-r from-blue-400 to-blue-500 text-gray-900 font-bold rounded-lg overflow-hidden transition-all duration-300 shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/50 hover:scale-105 text-sm sm:text-base"
+                                    >
+                                        <span className="relative z-10 flex items-center gap-2">
+                                            {t.hero.downloadResume}
+                                            <svg className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                            </svg>
+                                        </span>
+                                        <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                                    </button>
 
                                 <a
                                     href="#contact"
@@ -333,6 +334,13 @@ export const HeroSection = () => {
                     </svg>
                 </a>
             </div>
+            {/* Download resume modal */}
+            <DownloadResumeModal
+                isOpen={isResumeModalOpen}
+                onClose={() => setIsResumeModalOpen(false)}
+                englishPath="/cv/CV-Mohamed-Ali-Zbaira-ANG.pdf"
+                frenchPath="/cv/CV-Mohamed-Ali-Zbaira-Fr.pdf"
+            />
         </section>
     );
 };
