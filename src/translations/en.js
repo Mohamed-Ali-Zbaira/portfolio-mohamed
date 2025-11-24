@@ -22,7 +22,7 @@ export const en = {
   },
   about: {
     title: "About Me",
-    description: "I am passionate about creating innovative web solutions and continuously learning new technologies. My experience spans across frontend and backend development, with a focus on building scalable and efficient applications.",
+    description: "My expertise is centered on driving digital innovation as a Full Stack Engineer. I specialize in crafting robust front-end user experiences with modern frameworks like Angular and React and securing powerful, data-driven back-end systems using NestJS and Laravel. What truly sets my approach apart is my strong grounding in DevOps principles : leveraging Docker for seamless application containerization and implementing automated CI/CD pipelines (e.g., GitHub Actions ) to ensure rapid, high-quality deployments. My mission is simple: transform ambitious concepts into elegant, scalable, and future-proof digital products by mastering the full development lifecycle, from initial architecture to final cloud deployment.",
     stats: {
       projects: "Projects Completed",
       experience: "Years Experience",

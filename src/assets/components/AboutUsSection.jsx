@@ -5,8 +5,8 @@ import { useTranslation } from "../../hooks/useTranslation";
 export const AboutUsSection = () => {
   const { t } = useTranslation();
   const stats = [
-    { value: `${projects.length}+`, label: t.about.stats.projects },
-    { value: `${experiences.length}+`, label: t.about.stats.experience },
+    { value: `${10}+`, label: t.about.stats.projects },
+    { value: `${2}+`, label: t.about.stats.experience },
     { value: '100%', label: t.about.stats.satisfaction },
   ];
 

@@ -235,8 +235,8 @@ export const HeroSection = () => {
                             </div>
 
                             {/* Description */}
-                            <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0 line-clamp-3">
-                                {t.about.description}
+                            <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0 line-clamp-4">
+                                Welcome to my portfolio! I hope you find it insightful. Here, I've compiled a comprehensive overview of my professional journey, including my Professional Experience, core Technical Skills, a selection of my best Projects, and my Educational Background.
                             </p>
 
                             {/* CTA Buttons */}
