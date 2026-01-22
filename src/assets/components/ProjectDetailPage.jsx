@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ArrowLeft, ExternalLink, Github, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
@@ -11,6 +11,11 @@ import { useTranslation } from '../../hooks/useTranslation';
 export const ProjectDetailPage = ({ projectId, onBack }) => {
     const { t } = useTranslation();
     const [selectedImage, setSelectedImage] = useState(null);
+    
+    // Scroller vers le haut quand la page de détails s'ouvre
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [projectId]);
     
     // Trouver le projet sélectionné
     const project = projects.find(p => p.id === projectId);
@@ -60,6 +65,20 @@ export const ProjectDetailPage = ({ projectId, onBack }) => {
                             }}
                             style={{ width: '100%', height: '100%', display: 'block' }}
                         >
+                            {/* Vidéo si elle existe */}
+                            {project.video && (
+                                <SwiperSlide style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
+                                    <video
+                                        src={project.video}
+                                        controls
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                                        onError={(e) => {
+                                            e.target.style.display = 'none';
+                                        }}
+                                    />
+                                </SwiperSlide>
+                            )}
+
                             {/* Image principale */}
                             <SwiperSlide style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
                                 <img

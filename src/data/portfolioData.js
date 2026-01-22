@@ -329,6 +329,74 @@ Key Features:
     github: "https://github.com/Mohamed-Ali-Zbaira/AlooDoctoor-Development-of-a-Medical-Platform",
   },
   {
+    id: 17,
+    title: "Skyline Estates - Luxury Real Estate Agency",
+    date: "2026 | Dubai",
+    description:
+      "Skyline Estates is a modern and responsive web platform designed to showcase luxury real estate management, rental, and sales services across Dubai. Built with React and Tailwind CSS, featuring a sophisticated dark and gold color palette.",
+    fullDescription: `🏢 Skyline Estates - Luxury Real Estate Agency
+🌍 Project Overview
+
+Skyline Estates is a modern and responsive web platform designed to showcase luxury real estate management, rental, and sales services across Dubai.
+The design focuses on a high-end aesthetic, using a dark and gold color palette.
+
+This project is built with React and styled using Tailwind CSS to ensure a smooth and professional user experience across all devices.
+
+💎 Key Features
+
+Hero (Home)
+A striking banner highlighting expertise in luxury real estate.
+
+About Us
+Detailed presentation of the company and CEO (Mohamed Ali) with key statistics.
+
+Our Projects
+Showcases four flagship real estate projects with an elegant design.
+
+Our Services
+Clear description of services offered:
+• Property Management
+• Rental Services
+• Ready or Off-plan Sales
+
+How It Works
+Explains the client process in three simple steps.
+
+Our Team
+Grid display of main team members and their titles.
+
+Contact Us
+Full contact form and office information.
+
+🛠 Technologies Used
+
+Framework: React (with Hooks & Functional Components)
+Styling: Tailwind CSS
+Icons: Lucide React
+
+🚀 Features Highlights
+
+✨ Responsive Design optimized for all devices
+✨ Modern UI with dark and gold color palette
+✨ Smooth navigation and user experience
+✨ Real estate project showcases
+✨ Team member profiles
+✨ Contact form integration
+✨ Live demo available on Render`,
+    image:
+      "/images/projects/Skyline/1.png",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Lucide React",
+      "Responsive Design"
+    ],
+    category: "web app",
+    github: "https://github.com/Mohamed-Ali-Zbaira/skyline-estates",
+    webapp: "https://skyline-estates-rszk.onrender.com/",
+  },
+  {
     id: 9,
     title: "E-commerce (Internship Exadev)",
     date: "01/2023 – 02/2023 | Sfax",
@@ -336,7 +404,15 @@ Key Features:
       "E-commerce (Internship Exadev) is a complete online shopping platform developed during my second-year internship. The project allowed me to apply and strengthen my web development skills by building a functional and professional E-commerce system. It includes product management, shopping cart features, order handling, and user authentication. The application is built with Laravel for backend logic, MySQL for data management, and HTML/CSS/JavaScript for a responsive frontend.",
     image:
       "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697286997/Project%20Laravel/Client/xkusejtebudbbdqdlxy5.png",
-    tags: [
+    images: [
+      "/images/projects/Ecommerce/2.png",
+      "/images/projects/Ecommerce/3.png",
+      "/images/projects/Ecommerce/4.png",
+      "/images/projects/Ecommerce/5.png",
+      "/images/projects/Ecommerce/6.png",
+    ],
+    
+      tags: [
       "HTML",
       "CSS",
       "JAVASCRIPTS",
@@ -438,17 +514,17 @@ Data Management:
 • CRUD operations for the "Personnel" table are managed by the admin
 • The application consumes this data efficiently`,    image: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699703187/Artyprod/g66ojzncm9hdr1yufddb.png",
     images: [
-      "/public/projects/Artyprods/1.png",
-      "/public/projects/Artyprods/2.png",
-      "/public/projects/Artyprods/3.png",
-      "/public/projects/Artyprods/4.png",
-      "/public/projects/Artyprods/5.png",
-      "/public/projects/Artyprods/6.png",
-      "/public/projects/Artyprods/7.png",
-      "/public/projects/Artyprods/8.png",
-      "/public/projects/Artyprods/9.png",
-      "/public/projects/Artyprods/10.png",
-      "/public/projects/Artyprods/11.png"
+      "/images/projects/Artyprods/1.png",
+      "/images/projects/Artyprods/2.png",
+      "/images/projects/Artyprods/3.png",
+      "/images/projects/Artyprods/4.png",
+      "/images/projects/Artyprods/5.png",
+      "/images/projects/Artyprods/6.png",
+      "/images/projects/Artyprods/7.png",
+      "/images/projects/Artyprods/8.png",
+      "/images/projects/Artyprods/9.png",
+      "/images/projects/Artyprods/10.png",
+      "/images/projects/Artyprods/11.png"
     ],
     tags: [
       "HTML",
@@ -503,7 +579,33 @@ Data Management:
     title: "North Africa's Tunisia Diamond",
     date: "10/2023 – 11/2023 | Sfax",
     description:
-      "North Africa’s Tunisia Diamond is a hotel management web application featuring a complete CRUD system for hotels, secure user registration/login, and role-based access. The solution includes a RESTful API built with Express.js and a dynamic Angular frontend, ensuring a smooth and responsive user experience.",
+      "North Africa's Tunisia Diamond is a hotel management web application featuring a complete CRUD system for hotels, secure user registration/login, and role-based access. The solution includes a RESTful API built with Express.js and a dynamic Angular frontend, ensuring a smooth and responsive user experience.",
+    fullDescription: `🌐 North Africa's Tunisia Diamond Project Showcase 🏨💎
+
+Excited to share my latest project, North Africa's Tunisia Diamond! 🚀 It's an Angular application with Express.js, designed for efficient hotel and user management.
+
+🛠️ Technologies Used:
+
+• HTML
+• CSS
+• JavaScript
+• Express.js
+• Angular
+
+🔗 Frontend Demo
+https://urlz.fr/plO6
+
+🔗 Backend Demo
+https://urlz.fr/plO4
+
+Key Features:
+
+✨ Hotel Information Management (Add, Update, Delete)
+👤 User Registration and Login
+
+I'm proud of the seamless collaboration of HTML, CSS, JavaScript, Express.js, and Angular to bring this project to life. It's been an incredible journey, and I'm eager to share it with you!
+
+👁️‍🗨️ Stay tuned for more updates!`,
     image:
       "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1705695174/North%20Africa%27s%20Tunisia%20Diamond/Capture_d_%C3%A9cran_2024-01-19_211205_utxikw.png",
     tags: ["HTML",
@@ -514,13 +616,103 @@ Data Management:
     category: "web app",
     github: "https://github.com/Mohamed-Ali-Zbaira/North-Africa-s-Tunisia-Diamond___front-end",
     webapp: "",
+    video: "/images/projects/North/North.mp4",
   },
   {
     id: 16,
     title: "Client and Invoice Management ",
     date: "11/2023 – 12/2023 | Sfax",
     description:
-      "client and invoice management web application featuring client registration, invoice creation, activation tracking, and address-based filtering. The system provides real-time statistics and performance insights. It includes a Spring Boot backend for secure and structured data management and an Angular frontend for an intuitive and responsive user interface.",
+      "A comprehensive client and invoice management web application featuring client registration, invoice creation, activity tracking, and address-based filtering. The system provides real-time statistics and performance insights with a Spring Boot backend and Angular frontend.",
+    fullDescription: `Client Management REST API – Portfolio Project
+
+Overview
+
+This project provides a RESTful API for managing clients and generating statistical insights related to client activity and invoicing. The API supports client retrieval, activity tracking, loyalty analysis, and advanced statistical reporting, which is consumed by an Angular front-end application.
+
+Client APIs
+
+1. Get All Clients
+Endpoint: /api/clients/all
+Method: GET
+Description: Retrieves the complete list of clients.
+
+2. Get Most Loyal Client
+Endpoint: /api/clients/most-loyal
+Method: GET
+Description: Retrieves the most loyal client based on the highest number of invoices.
+Response: Returns the client or 404 if none is found.
+
+3. Get Clients Sorted by Number of Invoices
+Endpoint: /api/clients/by-nb-factures
+Method: GET
+Description: Retrieves clients sorted by the number of invoices.
+
+Active & Non-Active Client APIs
+
+A client is considered active if they placed an order within the last 6 months.
+
+4. Get Active Clients
+Endpoint: /api/clients/active-clients
+Method: GET
+Description: Retrieves the list of active clients.
+Response: Returns the list or 404 if none is found.
+
+5. Get Non-Active Clients
+Endpoint: /api/clients/non-active-clients
+Method: GET
+Description: Retrieves the list of non-active clients.
+
+Client Statistics APIs
+
+6. Get Total Clients Count
+Endpoint: /api/clients/all-client-count
+Method: GET
+Description: Retrieves the total number of clients.
+
+7. Get Active Clients Count
+Endpoint: /api/clients/active-clients-count
+Method: GET
+Description: Retrieves the number of active clients.
+
+8. Get Non-Active Clients Count
+Endpoint: /api/clients/non-active-clients-count
+Method: GET
+Description: Retrieves the number of non-active clients.
+
+Analytics & Reporting APIs
+
+9. Get Client Counts by Address
+Endpoint: /api/clients/client-counts-by-address
+Method: GET
+Description: Retrieves a map of client counts grouped by address (state or city).
+Usage: Used for client distribution charts.
+
+10. Get Invoice Counts by Client (Descending Order)
+Endpoint: /api/clients/invoice-counts-ordered-descending
+Method: GET
+Description: Retrieves invoice counts per client ordered in descending order.
+Usage: Used for loyalty and performance charts.
+
+Front-end (Angular) Features
+
+Client-side sorting by client name
+Client-side searching by name
+Client-side searching by address
+Charts for:
+• Clients grouped by state
+• Active vs Non-active clients (last 6 months)
+
+Technologies Used
+
+• Spring Boot (REST API)
+• Angular
+• JPA / Hibernate
+• MySQL
+• RESTful Architecture
+
+Back-end Repository
+https://github.com/Mohamed-Ali-Zbaira/mp-be-Mohamed.Ali.Zbaira`,
     image:
       "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1705697987/mp-fe-Mohamed-Ali-Zbaira/386870827_261514060272079_7432626746948972750_n_sibbau.png",
     tags: ["HTML",
@@ -531,6 +723,134 @@ Data Management:
     category: "web app",
     github: "https://github.com/Mohamed-Ali-Zbaira/mp-fe-Mohamed-Ali-Zbaira",
     webapp: "",
+  },
+  {
+    id: 18,
+    title: "Professional Portfolio Website",
+    date: "2026 | Current Project",
+    description:
+      "My Portfolio V5.1 is a modern, fully responsive professional portfolio website built with React 19.1.1 and Vite. Features dynamic routing, optimized performance, and a sleek dark-themed interface showcasing full-stack development expertise.",
+    fullDescription: `My Portfolio V5.1 - Professional Portfolio Website
+
+🎯 Overview
+
+My Portfolio V5.1 is a modern, fully responsive professional portfolio website - the fifth iteration of the portfolio project. It features an enhanced user experience with dynamic routing, optimized performance, and a sleek dark-themed interface.
+
+Version: 5.1  
+Type: Single Page Application (SPA)  
+Build Tool: Vite  
+Framework: React 19.1.1
+
+✨ Key Features
+
+Multi-Page Navigation
+• Home page with hero section
+• About section with detailed background
+• Experience timeline with professional history
+• Skills showcase with categorized expertise
+• Projects portfolio with case studies
+• Contact information and messaging
+• Responsive contact banner
+
+User Experience
+• Sticky navigation bar with scroll detection
+• Smooth page transitions with React Router
+• Mobile-responsive hamburger menu
+• Contact banner at the top
+• Dark theme with modern indigo color palette
+• Backdrop blur effects and smooth animations
+
+Performance Features
+• Lightning-fast development with Vite
+• Optimized build with code splitting
+• ESLint integration for code quality
+• Hot Module Replacement (HMR)
+• Lazy component loading
+
+🛠 Technology Stack
+
+Frontend Framework & Build Tools
+• React 19.1.1 - Core UI framework
+• React DOM 19.1.1 - DOM manipulation
+• Vite 7.1.14 - Fast build tool & dev server
+• React Router DOM 7.9.4 - Client-side routing
+• Tailwind CSS 4.1.16 - Utility-first CSS
+
+UI Components & Icons
+• Headless UI React 2.2.9 - Accessible components
+• Heroicons React 2.2.0 - SVG icon set
+• Lucide React 0.552.0 - Modern icons
+• Flowbite React 0.12.10 - Pre-built components
+
+Development & Linting
+• ESLint 9.36.0 - Code quality
+• TypeScript Support - Type safety
+• @vitejs/plugin-react 5.0.4 - Fast Refresh support
+
+🎨 Design & Styling
+
+Color Scheme
+• Background: Dark Navy (#0a0f1c)
+• Primary Accent: Indigo (#6366f1)
+• Text: White (#ffffff)
+• Hover States: Indigo Light (#a5b4fc)
+
+Features
+• Dark mode pre-configured
+• Responsive breakpoints (sm, md, lg, xl, 2xl)
+• Mobile-first approach
+• Glassmorphism effects with backdrop blur
+
+⚡ Performance Highlights
+
+• Development: Instant updates with Vite's Fast Refresh
+• Build Time: < 2 seconds
+• Production Bundle: < 200KB (gzipped)
+• Time to Interactive: < 2 seconds
+• Lighthouse Scores: 90+
+
+🌐 Browser Support
+
+✅ Chrome 90+
+✅ Firefox 88+
+✅ Safari 14+
+✅ Edge 90+
+✅ Mobile Browsers (Latest)
+
+🚀 Available Scripts
+
+Development
+\`npm run dev\` - Start dev server at localhost:5173
+
+Production
+\`npm run build\` - Create optimized build in dist/
+\`npm run preview\` - Preview production build
+
+Code Quality
+\`npm run lint\` - Run ESLint
+
+📈 Component-Based Architecture
+
+• Separation of concerns with dedicated data files
+• Reusable component patterns
+• Responsive design throughout
+• Accessible UI components
+• Modern React patterns (Hooks, Functional Components)
+
+Successfully deployed on Render with optimized assets, automatic CI/CD pipeline, and global CDN distribution.`,
+    image:
+      "/images/projects/Portfolio/1.png",
+    tags: [
+      "React 19.1.1",
+      "Vite",
+      "Tailwind CSS",
+      "React Router",
+      "ESLint",
+      "JavaScript"
+    ],
+    category: "web app",
+    github: "https://github.com/Mohamed-Ali-Zbaira/My-portfolio-V5.1",
+    webapp: "https://dev-mohamedalizbaira.onrender.com/",
   },
 ];
 
