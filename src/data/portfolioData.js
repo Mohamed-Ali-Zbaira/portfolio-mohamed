@@ -205,7 +205,7 @@ export const education = [
   {
     id: 4,
     logo: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697570771/Portfolio/vy5lhqz6ct7obadir4b0.png",
-    image: "/public/images/iset/iset.jpg",
+    image: "/images/iset/iset.jpg",
     school: "Higher Institute of Technological Studies of Sfax (ISET Sfax)",
     date: "September 2025 – June 2026 (Expected)",
     degree: "Master in Computer Systems, Sciences and Technologies",
@@ -225,7 +225,7 @@ export const education = [
   {
     id: 3,
     logo: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697570771/Portfolio/vy5lhqz6ct7obadir4b0.png",
-    image: "/public/images/iset/iset.jpg",
+    image: "/images/iset/iset.jpg",
     school: "Higher Institute of Technological Studies of Sfax (ISET Sfax)",
     date: "October 2021 – June 2024",
     degree: "Bachelor in Information Systems Development",
@@ -311,18 +311,18 @@ Key Features:
 • User-Friendly Interface: User-centered design for easy navigation
 • Medical Reports: Generate medical reports for better patient care
 • Role-Based Access Control (RBAC) for data privacy`,
-    image: "/public/images/projects/AlooDoctoor/1.png",
+    image: "/images/projects/AlooDoctoor/1.png",
     images: [
-      "/public/images/projects/AlooDoctoor/2.png",
-      "/public/images/projects/AlooDoctoor/3.png",
-      "/public/images/projects/AlooDoctoor/4.png",
-      "/public/images/projects/AlooDoctoor/5.png",
-      "/public/images/projects/AlooDoctoor/6.png",
-      "/public/images/projects/AlooDoctoor/7.png",
-      "/public/images/projects/AlooDoctoor/8.png",
-      "/public/images/projects/AlooDoctoor/9.png",
-      "/public/images/projects/AlooDoctoor/10.png",
-      "/public/images/projects/AlooDoctoor/11.png",
+      "/images/projects/AlooDoctoor/2.png",
+      "/images/projects/AlooDoctoor/3.png",
+      "/images/projects/AlooDoctoor/4.png",
+      "/images/projects/AlooDoctoor/5.png",
+      "/images/projects/AlooDoctoor/6.png",
+      "/images/projects/AlooDoctoor/7.png",
+      "/images/projects/AlooDoctoor/8.png",
+      "/images/projects/AlooDoctoor/9.png",
+      "/images/projects/AlooDoctoor/10.png",
+      "/images/projects/AlooDoctoor/11.png",
     ],
     tags: ["HTML5", "CSS", "JavaScript", "PHP", "Laravel", "MySQL", "XAMPP"],
     category: "fullstack",
@@ -358,13 +358,13 @@ Key Features:
     image:
       "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1705695864/Reservation-ticket/screencapture-127-0-0-1-3000-2023-12-13-16_27_53_ghqbi0.png",
     images: [
-      "/public/images/projects/Reservation-ticket/2.png",
-      "/public/images/projects/Reservation-ticket/3.png",
-      "/public/images/projects/Reservation-ticket/4.png",
-      "/public/images/projects/Reservation-ticket/5.png",
-      "/public/images/projects/Reservation-ticket/6.png",
-      "/public/images/projects/Reservation-ticket/7.png",
-      "/public/images/projects/Reservation-ticket/8.png"
+      "/images/projects/Reservation-ticket/2.png",
+      "/images/projects/Reservation-ticket/3.png",
+      "/images/projects/Reservation-ticket/4.png",
+      "/images/projects/Reservation-ticket/5.png",
+      "/images/projects/Reservation-ticket/6.png",
+      "/images/projects/Reservation-ticket/7.png",
+      "/images/projects/Reservation-ticket/8.png"
     ],
     tags: [
       "HTML",
