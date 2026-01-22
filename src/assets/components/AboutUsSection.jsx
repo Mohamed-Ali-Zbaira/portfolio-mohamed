@@ -35,7 +35,7 @@ export const AboutUsSection = () => {
           <div className="lg:w-1/2 mt-10 lg:mt-0 flex justify-center lg:justify-end relative">
             <div className="bg-white p-1 rounded-lg shadow-lg w-80 h-80 sm:w-96 sm:h-96 lg:w-[400px] lg:h-[400px] overflow-hidden relative lg:-translate-y-5">
               <img 
-                src="/images/profile.jpg" 
+                src="/images/profile.png" 
                 alt={Bio.name} 
                 className="w-full h-full object-cover rounded-lg"
                 onError={(e) => { 

@@ -203,29 +203,68 @@ export const experiences = [
 
 export const education = [
   {
-    id: 3,
-    img: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697570771/Portfolio/vy5lhqz6ct7obadir4b0.png",
+    id: 4,
+    logo: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697570771/Portfolio/vy5lhqz6ct7obadir4b0.png",
+    image: "/public/images/iset/iset.jpg",
     school: "Higher Institute of Technological Studies of Sfax (ISET Sfax)",
-    date: "September 2021 - June 2024",
-    degree: "Bachelor's Degree in Information Technology",
-    desc: "Completed a 3-year program specializing in Computer System Development and obtained a Bachelor's Degree in Information Technology."
+    date: "September 2025 – June 2026 (Expected)",
+    degree: "Master in Computer Systems, Sciences and Technologies",
+    status: "IN PROGRESS",
+    desc: "First year of a professional master's program focused on advanced software engineering and emerging technologies.",
+    details: [
+      "Advanced algorithms and high-performance programming",
+      "Big Data, Data Mining, and advanced databases",
+      "Artificial intelligence, language theory, and intelligent systems",
+      "Linux system administration (LPI certification preparation)",
+      "IT project management and security methodologies (ISO 27001)",
+      "Advanced mobile application development and IoT",
+      "Introduction to applied research and scientific communication in English"
+    ],
+    skills: ["Advanced Algorithms", "Big Data", "AI", "Linux Administration", "Cybersecurity", "IoT", "Mobile Development", "Project Management", "Technical English"]
   },
-  // {
-  //   id: 2,
-  //   img: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697570790/Portfolio/bk4ljbztlulahsnu3jwv.jpg",
-  //   school: "Higher Institute of Technological Studies of Mednine (ISET Mednine)",
-  //   date: "September 2021 - June 2022",
-  //   degree: "First Year in Computer Science",
-  //   desc: "Completed the first year with admission to the main section and chose the specialization in Computer System Development."
-  // },
   {
-    id: 1,
-    img: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697570823/Portfolio/abj9nqzcbwawdffjndnn.webp",
-    school: "Ali Bourguiba High School, Mahres",
-    date: "2017 - 2021",
-    Niveau: "High School Diploma (Baccalauréat)",
-    degree: "Technical Stream (Bac Technique)",
-    desc: "I successfully completed my high school education and was admitted to the next level."
+    id: 3,
+    logo: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697570771/Portfolio/vy5lhqz6ct7obadir4b0.png",
+    image: "/public/images/iset/iset.jpg",
+    school: "Higher Institute of Technological Studies of Sfax (ISET Sfax)",
+    date: "October 2021 – June 2024",
+    degree: "Bachelor in Information Systems Development",
+    status: "COMPLETED",
+    desc: "Three-year comprehensive program in information systems engineering and emerging technologies with advanced specialization.",
+    sections: [
+      {
+        title: "Year 3: Advanced Specialization (September 2023 – June 2024)",
+        details: [
+          "Service-Oriented Architecture (SOA) and mobile development",
+          "Advanced data management (Big Data, DBMS)",
+          "Software testing, validation, and cybersecurity",
+          "Cross-platform development and project integration",
+          "Professional certification preparation (TOEIC, French)",
+          "Final internship in corporate environment"
+        ]
+      },
+      {
+        title: "Year 2: Computer Science & Technology (September 2022 – June 2023)",
+        details: [
+          "Applied mathematics and advanced algorithms",
+          "Computer system architecture and digital logic",
+          "Web and multimedia development (HTML5, CSS3, JavaScript)",
+          "Structured programming with C and Java",
+          "Digital culture and technical communication"
+        ]
+      },
+      {
+        title: "Year 1: Foundations (October 2021 – June 2022)",
+        details: [
+          "Programming fundamentals with C and Java",
+          "Web development basics (HTML, CSS, JavaScript)",
+          "Database systems and MySQL",
+          "Computer architecture and mathematics",
+          "Technical writing and communication skills"
+        ]
+      }
+    ],
+    skills: ["SOA", "Mobile Development", "Big Data", "Cybersecurity", "Software Testing", "DevOps", "Project Management", "Web Development", "Node.js", "Databases", ".NET", "Django", "React", "Algorithms", "C/Java Programming", "System Architecture", "Technical Communication", "HTML5", "CSS", "JavaScript", "PHP", "MySQL", "Problem Solving"]
   }
 ];
 
@@ -234,8 +273,57 @@ export const projects = [
     id: 3,
     title: "Aloo Doctoor (Medical Platform Internship)",
     date: "01/2024 – 06/2024 | Sfax",
-    description: "Aloo Doctoor (Medical Platform Internship) is an innovative full-stack medical platform designed for efficient patient data management and enhanced communication among healthcare professionals. The system ensures secure storage and sharing of medical information, complying with privacy standards. Key features include patient record management, appointment scheduling, and easy access to medical histories. Built with Laravel and PHP for backend logic, MySQL for data management, and HTML5/CSS/JavaScript for a responsive frontend.",
-    image: "https://camo.githubusercontent.com/ad2c3d08d3ed67a9e83da2e2b7be46696ca61b615543cffc60c7db834bb026aa/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f646b72666d71626a312f696d6167652f75706c6f61642f76313733303833363834362f474954253230446576656c6f706d656e742532306f66253230612532304d65646963616c253230506c6174666f726d2f73637265656e636170747572652d3132372d302d302d312d383030302d323032342d31312d30352d32305f35385f33355f7670756c61392e706e67",
+    description: "A comprehensive medical platform designed to facilitate management of patient data and improve communication between healthcare professionals. Enables secure storage, consultation, and sharing of medical information while adhering to privacy standards.",
+    fullDescription: `Development of a Medical Platform
+
+This project aims to design and develop a medical platform intended to facilitate the management of patient data and improve communication between healthcare professionals. The platform allows for secure storage, consultation, and sharing of medical information while adhering to privacy standards. It addresses issues such as data centralization and easy access to patients' medical histories.
+
+Functional Requirements
+
+Patients:
+• Search for information about clinics, doctors, operations and publications
+• Plan online appointments
+• Consult clinic lists
+• Access medical publications and health advice
+• Authentication to access certain features
+• Manage their own user profile
+
+Doctors:
+• Schedule online appointments with patients
+• Publish medical publications and health advice
+• Publish medical operations
+• Publish information about clinics
+• Authentication to access certain features
+• Manage their own user profile
+
+Administrators:
+• Manage doctor verification requests
+• Manage medical publications and health advice
+• Manage medical operations
+• Publish information about clinics
+• Manage users
+• Manage complaints
+
+Key Features:
+• Patient Management: Add, edit, and delete patient records
+• Medical History: Consult patients' medical histories
+• Data Security: Secure access with user authentication
+• User-Friendly Interface: User-centered design for easy navigation
+• Medical Reports: Generate medical reports for better patient care
+• Role-Based Access Control (RBAC) for data privacy`,
+    image: "/public/images/projects/AlooDoctoor/1.png",
+    images: [
+      "/public/images/projects/AlooDoctoor/2.png",
+      "/public/images/projects/AlooDoctoor/3.png",
+      "/public/images/projects/AlooDoctoor/4.png",
+      "/public/images/projects/AlooDoctoor/5.png",
+      "/public/images/projects/AlooDoctoor/6.png",
+      "/public/images/projects/AlooDoctoor/7.png",
+      "/public/images/projects/AlooDoctoor/8.png",
+      "/public/images/projects/AlooDoctoor/9.png",
+      "/public/images/projects/AlooDoctoor/10.png",
+      "/public/images/projects/AlooDoctoor/11.png",
+    ],
     tags: ["HTML5", "CSS", "JavaScript", "PHP", "Laravel", "MySQL", "XAMPP"],
     category: "fullstack",
     github: "https://github.com/Mohamed-Ali-Zbaira/AlooDoctoor-Development-of-a-Medical-Platform",
@@ -269,6 +357,15 @@ export const projects = [
       "Reservation-ticket is an online booking platform for sports and movie tickets. It features user management, ticket reservation, secure authentication, and an administrator dashboard for system supervision. The application is built with a Next.js frontend, an Express.js backend, and MongoDB for data storage, providing a fast and scalable full-stack solution",
     image:
       "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1705695864/Reservation-ticket/screencapture-127-0-0-1-3000-2023-12-13-16_27_53_ghqbi0.png",
+    images: [
+      "/public/images/projects/Reservation-ticket/2.png",
+      "/public/images/projects/Reservation-ticket/3.png",
+      "/public/images/projects/Reservation-ticket/4.png",
+      "/public/images/projects/Reservation-ticket/5.png",
+      "/public/images/projects/Reservation-ticket/6.png",
+      "/public/images/projects/Reservation-ticket/7.png",
+      "/public/images/projects/Reservation-ticket/8.png"
+    ],
     tags: [
       "HTML",
       "CSS",
@@ -306,9 +403,53 @@ export const projects = [
     title: "ArtyProd",
     date: "04/2022 – 05/2022 | Sfax",
     description:
-      "ArtyProd is a web application designed for a graphic design, audiovisual production, and 3D design agency. The platform showcases the agency’s services, portfolio, team members, and allows users to get in touch easily. It also offers user registration to provide personalized access. Built with Django for backend management and HTML/CSS/JavaScript with Tailwind CSS for a modern and responsive frontend.",
-    image:
-      "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699703187/Artyprod/g66ojzncm9hdr1yufddb.png",
+      "ArtyProd is a web application designed for a graphic design, audiovisual production, and 3D design agency. The platform showcases the agency’s services, portfolio, team members, and allows users to get in touch easily. It also offers user registration to provide personalized access. Built with Django for backend management and HTML/CSS/JavaScript with Tailwind CSS for a modern and responsive frontend.",    fullDescription: `ArtyProd Web Application
+
+Overview
+ArtyProd, a graphic design, audiovisual production, and 3D design agency, aims to create a web application to showcase its services to users. The application allows users to explore the agency's portfolio, learn about its services, view team members, and contact the agency. Users have the option to register, providing personal information, to gain additional privileges such as requesting project realization and tracking project progress.
+
+Features
+
+User Authentication:
+• Users can register to gain access to additional features
+• Registered users can request project realization and track project progress
+
+Portfolio:
+• Showcase previous works, including images, project descriptions, and client testimonials
+
+Services:
+• Detailed section on the agency's graphic design services, 3D design, and scenarization
+• Examples of previous work related to each service
+
+Team:
+• Introduction to the agency's team members, including their background and expertise
+• Team members' photos and links to their LinkedIn profiles
+
+Contact:
+• Contact page with a contact form, contact information, and a map to locate the agency
+
+Project Management:
+• Projects may consist of multiple services detailed in the "Detail" table
+• Projects are assigned to a team of personnel by the admin
+• Each team comprises several personnel members and is associated with a specific project
+• Project details include the file associated with the service to be completed (image, video, or PDF)
+
+Data Management:
+• CRUD operations for the "Personnel" table are managed by the admin
+• The application consumes this data efficiently`,    image: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1699703187/Artyprod/g66ojzncm9hdr1yufddb.png",
+    images: [
+      "/public/projects/Artyprods/1.png",
+      "/public/projects/Artyprods/2.png",
+      "/public/projects/Artyprods/3.png",
+      "/public/projects/Artyprods/4.png",
+      "/public/projects/Artyprods/5.png",
+      "/public/projects/Artyprods/6.png",
+      "/public/projects/Artyprods/7.png",
+      "/public/projects/Artyprods/8.png",
+      "/public/projects/Artyprods/9.png",
+      "/public/projects/Artyprods/10.png",
+      "/public/projects/Artyprods/11.png"
+    ],
     tags: [
       "HTML",
       "CSS",

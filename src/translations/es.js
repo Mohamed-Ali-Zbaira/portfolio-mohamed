@@ -33,7 +33,9 @@ export const es = {
     title: "Mis proyectos",
     subtitle: "Explora mi portafolio de aplicaciones web y proyectos, mostrando mis habilidades en desarrollo full-stack y tecnologías modernas.",
     github: "GitHub",
-    liveDemo: "Demo en vivo"
+    liveDemo: "Demo en vivo",
+    viewAll: "Ver todos los proyectos",
+    showLess: "Ver menos"
   },
   skills: {
     title: "Habilidades y Tecnologías",

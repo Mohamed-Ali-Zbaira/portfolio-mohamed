@@ -33,7 +33,9 @@ export const ar = {
     title: "مشاريعي",
     subtitle: "استكشف محفظتي من تطبيقات الويب والمشاريع، التي تعرض مهاراتي في تطوير Full Stack والتكنولوجيات الحديثة.",
     github: "GitHub",
-    liveDemo: "عرض مباشر"
+    liveDemo: "عرض مباشر",
+    viewAll: "عرض جميع المشاريع",
+    showLess: "إظهار أقل"
   },
   skills: {
     title: "المهارات والتكنولوجيات",

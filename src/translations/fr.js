@@ -33,7 +33,9 @@ export const fr = {
     title: "Mes projets",
     subtitle: "Explorez mon portfolio d'applications web et de projets, mettant en valeur mes compétences en développement full-stack et technologies modernes.",
     github: "GitHub",
-    liveDemo: "Démo en direct"
+    liveDemo: "Démo en direct",
+    viewAll: "Voir tous les projets",
+    showLess: "Voir moins"
   },
   skills: {
     title: "Compétences & Technologies",
