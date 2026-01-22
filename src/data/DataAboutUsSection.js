@@ -1,6 +1,6 @@
 // Données pour AboutUsSection
 
-export const ceoImageUrl = "/images/profile.jpg";
+export const ceoImageUrl = "/images/profile.png";
 
 export const aboutUsText = [
   "Skyline Estates, established in November 2023, specializes in comprehensive real estate services, including property management, rentals, and sales. The agency provides expertise in both ready-to-move-in and off-plan properties, serving clients across Ras Al Khaimah and Dubai.",
