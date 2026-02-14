@@ -328,6 +328,41 @@ Key Features:
     category: "fullstack",
     github: "https://github.com/Mohamed-Ali-Zbaira/AlooDoctoor-Development-of-a-Medical-Platform",
   },
+   {
+    id: 19,
+    title: "CmdPortfolio — Portfolio Terminal Professionnel",
+    date: "2025 | Personal Project",
+    description:
+      "CmdPortfolio est un portfolio interactif présenté sous la forme d'un terminal, offrant une expérience immersive pour consulter biographie, compétences, expériences et projets.",
+    fullDescription: `CmdPortfolio — Portfolio Terminal Professionnel
+
+CmdPortfolio est une SPA React construite avec Vite qui simule une interface terminale. L'utilisateur peut taper des commandes prédéfinies (help, about, skills, experience, projects, education, contact, clear) pour naviguer rapidement dans le contenu du portfolio. Les données sont centralisées dans src/data/portfolioData.js pour faciliter la maintenance et la personnalisation.
+
+Caractéristiques principales:
+- Interface terminal simulée avec historique et saisie de commandes
+- Commandes prédéfinies: help, about, skills, experience, projects, education, contact, clear
+- Données centralisées et composants réutilisables
+- Construite avec React + Vite, styles modulaires
+
+Installation rapide:
+git clone https://github.com/Mohamed-Ali-Zbaira/CmdPortfolio
+cd CmdPortfolio
+npm install
+npm run dev
+`,
+    image: "/images/projects/CmdPortfolio/CmdPortfolio.png",
+    images: ["/images/projects/CmdPortfolio/CmdPortfolio.png"],
+    tags: [
+      "React",
+      "Vite",
+      "JavaScript",
+      "Terminal UI",
+      "SPA",
+    ],
+    category: "terminal",
+    github: "https://github.com/Mohamed-Ali-Zbaira/CmdPortfolio",
+    webapp: "https://mohamed-ali-zbaira-portfolio.netlify.app/",
+  },
   {
     id: 17,
     title: "Skyline Estates - Luxury Real Estate Agency",
@@ -852,5 +887,6 @@ Successfully deployed on Render with optimized assets, automatic CI/CD pipeline,
     github: "https://github.com/Mohamed-Ali-Zbaira/My-portfolio-V5.1",
     webapp: "https://dev-mohamedalizbaira.onrender.com/",
   },
+ 
 ];
 
