@@ -203,26 +203,6 @@ export const experiences = [
 
 export const education = [
   {
-    id: 4,
-    logo: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697570771/Portfolio/vy5lhqz6ct7obadir4b0.png",
-    image: "/images/iset/iset.jpg",
-    school: "Higher Institute of Technological Studies of Sfax (ISET Sfax)",
-    date: "September 2025 – June 2026 (Expected)",
-    degree: "Master in Computer Systems, Sciences and Technologies",
-    status: "IN PROGRESS",
-    desc: "First year of a professional master's program focused on advanced software engineering and emerging technologies.",
-    details: [
-      "Advanced algorithms and high-performance programming",
-      "Big Data, Data Mining, and advanced databases",
-      "Artificial intelligence, language theory, and intelligent systems",
-      "Linux system administration (LPI certification preparation)",
-      "IT project management and security methodologies (ISO 27001)",
-      "Advanced mobile application development and IoT",
-      "Introduction to applied research and scientific communication in English"
-    ],
-    skills: ["Advanced Algorithms", "Big Data", "AI", "Linux Administration", "Cybersecurity", "IoT", "Mobile Development", "Project Management", "Technical English"]
-  },
-  {
     id: 3,
     logo: "https://res.cloudinary.com/dkrfmqbj1/image/upload/v1697570771/Portfolio/vy5lhqz6ct7obadir4b0.png",
     image: "/images/iset/iset.jpg",
